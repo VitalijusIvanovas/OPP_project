@@ -1,3 +1,4 @@
 
 class Car(object):
-    pass
+    def __init__(self, color):
+        self.color = color
